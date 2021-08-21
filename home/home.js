@@ -86,5 +86,13 @@ options.forEach(option => {
     };
   })
 });
-
+reset.addEventListener("click",function(){
+  userScore=0;
+  compScore=0;
+  playerHand.src = `../assets/rock.png`;
+  computerHand.src = `../assets/rock.png`;
+  playerScore.textContent= userScore;
+  computerScore.textContent=compScore;
+  winner.textContent= "Choose an option !";
+});
 
