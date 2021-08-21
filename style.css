@@ -1,19 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
 body{
-    padding-top: 30px;
-    padding-left: 20px;
-}
-.image{
-    width: 345px;
-    height: 500px;
-}
-.btn{
-    width: 300px;
-    height: 70px;
-    background-color: #fac32a;
-    border-radius: 20px;
-    border: none;
-    font-size: 20px;
-    color: #fff;
-    margin-left: 10px;
+  background-image: url("./assets/header-background.gif");
+  background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    color: #40210b !important;
+    background-attachment: scroll;
+    background-clip: border-box;
 
 }
+#header-background{
+  /* float: left; */
+  /* height: 1568px; */
+  width: 100%;
+  padding-left: 60px;
+  padding-top: 4%;
+}
+.logo{
+  margin-top: 5%;
+}
+.logo1{
+  height: 160px;
+  padding-left: s0px;
+}
+.container{
+  text-align: center;
+  padding-top: 180px;
+}
+.bottom{
+    width: 380px;
+    height: 300px;
+}
+.move{
+        border: none;
+        width: 250px;
+        height: 50px;
+        border-radius:20px;
+        font-size: 18px;
+        background-color: #fcab4c;
+
+}
+.last{
+    padding-left: 65px;
+    padding-top: 30px;
+
+}
+
+.instructions {
+	margin-top: 25px;
+}
+
+#instructions {
+  background-color: #fcab4c;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  font-size: 22px;
+  margin-top: -50px;
+}
+
+.buttons {
+	margin-top: 50px;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+  padding: 15px 32px;
+}
+.music{
+  margin-left: -45px;
+  margin-top: -160px;
+}
+.musicbtn{
+  border: none;
+  width: 55px;
+  height: 35px;
+  border-radius: 25%;
+  font-size: 18px;
+  background-color: #fff;
+}
+
