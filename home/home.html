@@ -16,7 +16,39 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body  >
+    <header id="header-background">
+      <div class="logo">
+        <img src="../assets/logo1.png" class="logo1">
+      </div>
+    </header>
+    <section class="game">
+      <div class="match">
+        <h1 class="match__title">Choose an option !</h1>
+        <div class="hands">
+          <img class="p-hand" src="../assets/rock.png" alt="player hand" />
+          <img class="c-hand" src="../assets/rock.png" alt="computer hand" />
+        </div>
+        <div class="options">
+          <button class="button rock">rock</button>
+          <button class="button paper">paper</button>
+          <button class="button scissors">scissors</button>
+        </div>
+      </div>
+      <div class="score">
+        <div class="user-score">
+          <h2>Player</h2>
+          <p>0</p>
+        </div>
+        <div class="computer-score">
+          <h2>Computer</h2>
+          <p>0</p>
+        </div>
+      </div>
+      <div class="LastButton">
+        <button id="reset">Reset</button>
+      </div>
+    </section>
     <script src="./home.js"></script>
 </body>
 </html>
