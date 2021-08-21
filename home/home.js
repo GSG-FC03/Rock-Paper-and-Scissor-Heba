@@ -2,6 +2,13 @@
 let userScore = 0;
 let compScore = 0;
 
+//function for playing music
+function play() {
+  var audio = new Audio('../assets/rise-and-shine.mp3');
+  audio.play();
+}
+
+
 //selsect  elements
 const match = document.querySelector('.match');
 const score = document.querySelector('.score');
