@@ -1,58 +1,56 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-     }
-body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
   background-image: url("./assets/header-background.gif");
   background-origin: padding-box;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: auto auto;
-    color: #40210b !important;
-    background-attachment: scroll;
-    background-clip: border-box;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  color: #40210b !important;
+  background-attachment: scroll;
+  background-clip: border-box;
 }
 
-#header-background{
+#header-background {
   /* float: left; */
   /* height: 1568px; */
   width: 100%;
   padding-left: 60px;
   padding-top: 4%;
 }
-.logo{
+.logo {
   margin-top: 5%;
 }
-.logo1{
+.logo1 {
   height: 160px;
   padding-left: 0px;
 }
-.container{
+.container {
   text-align: center;
   padding-top: 180px;
 }
-.bottom{
-    width: 380px;
-    height: 300px;
+.bottom {
+  width: 380px;
+  height: 300px;
 }
-.move{
-        border: none;
-        width: 250px;
-        height: 50px;
-        border-radius:20px;
-        font-size: 18px;
-        background-color: #fcab4c;
-
+.move {
+  border: none;
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 18px;
+  background-color: #fcab4c;
 }
-.last{
-    padding-left: 65px;
-    padding-top: 30px;
-
+.last {
+  padding-left: 65px;
+  padding-top: 30px;
 }
 
 .instructions {
-	margin-top: 25px;
+  margin-top: 25px;
 }
 
 #instructions {
@@ -65,17 +63,17 @@ body{
 }
 
 .buttons {
-	margin-top: 50px;
-	display: flex;
-	flex-flow: row;
-	justify-content: space-around;
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
   padding: 15px 32px;
 }
-.music{
+.music {
   margin-left: -45px;
   margin-top: -160px;
 }
-.musicbtn{
+.musicbtn {
   border: none;
   width: 55px;
   height: 35px;
@@ -84,15 +82,14 @@ body{
   background-color: #fff;
 }
 @media screen and (max-width: 1024px) and (min-width: 450px) {
-
 }
 @media only screen and (min-width: 1300px) {
-  .logo1{
-  height: 250px;
-  width: 950px;
-  padding-left: 260px;
+  .logo1 {
+    height: 250px;
+    width: 950px;
+    padding-left: 260px;
   }
-  .musicbtn{
+  .musicbtn {
     width: 110px;
     border-radius: 1%;
     font-size: 25px;
@@ -100,28 +97,58 @@ body{
   .music {
     margin-left: -40px;
     margin-top: -320px;
-}
-.bottom {
-  width: 800px;
-  margin-top: 180px;
-  height: 450px;
-}
-.move {
-  width: 300px;
-  height: 100px;
-  font-size: 22px;
-}
-.buttons {
-  margin-top: -60px;
-  margin-left: 500px;
-}
-#instructions {
-  width: 300px;
-  height: 100px;
-  font-size: 26px;
-  border: none;
-}
-.last {
+  }
+  .bottom {
+    width: 800px;
+    margin-top: 180px;
+    height: 450px;
+  }
+  .move {
+    width: 300px;
+    height: 100px;
+    font-size: 22px;
+  }
+  .buttons {
+    margin-top: -60px;
+    margin-left: 500px;
+  }
+  #instructions {
+    width: 300px;
+    height: 100px;
+    font-size: 26px;
+    border: none;
+  }
+  .last {
     padding-left: 250px;
+  }
 }
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+  .logo1 {
+    height: 220px;
+    padding-left: 150px;
+  }
+  .music {
+    margin-top: -230px;
+  }
+  .bottom {
+    width: 500px;
+    height: 450px;
+  }
+  .container {
+    padding-top: 220px;
+  }
+  .last {
+    padding-left: 250px;
+  }
+  .move {
+    width: 260px;
+    height: 80px;
+    font-size: 20px;
+  }
+  #instructions {
+    width: 260px;
+    height: 80px;
+    font-size: 25px;
+    margin-top: -50px;
+  }
 }
